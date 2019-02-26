@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "G510Binder", "G510Binder\G510Binder.vcxproj", "{E4BEBB20-8F16-423F-BBBF-B138F19C551B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HidTest", "HidTest\HidTest.vcxproj", "{4C78B6D8-D933-4745-B92A-681AD71EBF64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05085187-33A7-4D58-82EA-0D35EAB3AD1F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4BEBB20-8F16-423F-BBBF-B138F19C551B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4BEBB20-8F16-423F-BBBF-B138F19C551B}.Debug|Win32.Build.0 = Debug|Win32
+		{E4BEBB20-8F16-423F-BBBF-B138F19C551B}.Release|Win32.ActiveCfg = Release|Win32
+		{E4BEBB20-8F16-423F-BBBF-B138F19C551B}.Release|Win32.Build.0 = Release|Win32
+		{4C78B6D8-D933-4745-B92A-681AD71EBF64}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C78B6D8-D933-4745-B92A-681AD71EBF64}.Debug|Win32.Build.0 = Debug|Win32
+		{4C78B6D8-D933-4745-B92A-681AD71EBF64}.Release|Win32.ActiveCfg = Release|Win32
+		{4C78B6D8-D933-4745-B92A-681AD71EBF64}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DFAE133-7AB3-4E34-9480-1A940FEDDB05}
+	EndGlobalSection
+EndGlobal

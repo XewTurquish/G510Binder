@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gamepads>
+	<Gamepad name="SpeedPadn50">
+		<Config>
+			<VID>0x050D</VID>
+			<PID>0x0805</PID>
+			<Usage>0x0005</Usage>
+			<UsagePage>0x0001</UsagePage>
+		</Config>
+		<Input>
+			<Byte Unused="True"/>
+			<Byte Unused="False" Type="Axis">N50_DPADYAXIS</Byte>
+			<Byte Unused="False" Type="Axis">N50_DPADXAXIS</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">N50_KEY_1</Mask>
+				<Mask Value="0x02">N50_KEY_2</Mask>
+				<Mask Value="0x04">N50_KEY_3</Mask>
+				<Mask Value="0x08">N50_KEY_4</Mask>
+				<Mask Value="0x10">N50_KEY_5</Mask>
+				<Mask Value="0x20">N50_KEY_6</Mask>
+				<Mask Value="0x40">N50_KEY_7</Mask>
+				<Mask Value="0x80">N50_KEY_8</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">N50_KEY_9</Mask>
+				<Mask Value="0x02">N50_KEY_10</Mask>
+			</Byte>
+			<Byte Unused="False" Type="Axis">N50_THROTTLE</Byte>
+		</Input>
+		<ShiftStates>
+			<State Name="S1" Type="Axis" AxisName="N50_THROTTLE" MinValue="0x00" MaxValue="0x3F"/>
+			<State Name="S2" Type="Axis" AxisName="N50_THROTTLE" MinValue="0x40" MaxValue="0x7F"/>
+			<State Name="S3" Type="Axis" AxisName="N50_THROTTLE" MinValue="0x80" MaxValue="0xBF"/>
+			<State Name="S4" Type="Axis" AxisName="N50_THROTTLE" MinValue="0xC0" MaxValue="0xFF"/>
+			<State Name="S5" Type="Button" ButtonName="N50_KEY_10"/>
+			<State Name="S6" Type="Multiple Axis">
+				<Axis Name="N50_DPADXAXIS" MinValue="0x80" MaxValue="0x80"/>
+				<Axis Name="N50_DPADYAXIS" MinValue="0xFF" MaxValue="0xFF"/>
+			</State>
+			<State Name="S7" Type="Multiple Axis" Delay="500">
+				<Axis Name="N50_DPADXAXIS" MinValue="0xFF" MaxValue="0xFF"/>
+				<Axis Name="N50_DPADYAXIS" MinValue="0xFF" MaxValue="0xFF"/>
+			</State>
+			<State Name="S8" Type="Multiple Axis">
+				<Axis Name="N50_DPADXAXIS" MinValue="0xFF" MaxValue="0xFF"/>
+				<Axis Name="N50_DPADYAXIS" MinValue="0x80" MaxValue="0x80"/>
+			</State>
+			<State Name="S9" Type="Multiple Axis" Delay="500">
+				<Axis Name="N50_DPADXAXIS" MinValue="0xFF" MaxValue="0xFF"/>
+				<Axis Name="N50_DPADYAXIS" MinValue="0x00" MaxValue="0x00"/>
+			</State>
+			<State Name="S10" Type="Multiple Axis">
+				<Axis Name="N50_DPADXAXIS" MinValue="0x80" MaxValue="0x80"/>
+				<Axis Name="N50_DPADYAXIS" MinValue="0x00" MaxValue="0x00"/>
+			</State>
+			<State Name="S11" Type="Multiple Axis" Delay="500">
+				<Axis Name="N50_DPADXAXIS" MinValue="0x00" MaxValue="0x00"/>
+				<Axis Name="N50_DPADYAXIS" MinValue="0x00" MaxValue="0x00"/>
+			</State>
+			<State Name="S12" Type="Multiple Axis">
+				<Axis Name="N50_DPADXAXIS" MinValue="0x00" MaxValue="0x00"/>
+				<Axis Name="N50_DPADYAXIS" MinValue="0x80" MaxValue="0x80"/>
+			</State>
+			<State Name="S13" Type="Multiple Axis" Delay="500">
+				<Axis Name="N50_DPADXAXIS" MinValue="0x00" MaxValue="0x00"/>
+				<Axis Name="N50_DPADYAXIS" MinValue="0xFF" MaxValue="0xFF"/>
+			</State>
+		</ShiftStates>
+		<AltNames>
+			<AltName Name="N50_KEY_1">K1</AltName>
+			<AltName Name="N50_KEY_2">K2</AltName>
+			<AltName Name="N50_KEY_3">K3</AltName>
+			<AltName Name="N50_KEY_4">K4</AltName>
+			<AltName Name="N50_KEY_5">K5</AltName>
+			<AltName Name="N50_KEY_6">K6</AltName>
+			<AltName Name="N50_KEY_7">K7</AltName>
+			<AltName Name="N50_KEY_8">K8</AltName>
+			<AltName Name="N50_KEY_9">K9</AltName>
+			<!--AltName Name="N50_KEY_10">10</AltName-->
+		</AltNames>
+	</Gamepad>
+	<Gamepad name="G510">
+		<Config>
+			<VID>0x046D</VID>
+			<PID>0xC22D</PID>
+			<AltPID>0xC22E</AltPID>
+			<Usage>0x0000</Usage>
+			<UsagePage>0xFF00</UsagePage>
+		</Config>
+		<Input>
+			<Byte Unused="True" Type="UseMask" Value="0x03"/>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G510_KEY_G1</Mask>
+				<Mask Value="0x02">G510_KEY_G2</Mask>
+				<Mask Value="0x04">G510_KEY_G3</Mask>
+				<Mask Value="0x08">G510_KEY_G4</Mask>
+				<Mask Value="0x10">G510_KEY_G5</Mask>
+				<Mask Value="0x20">G510_KEY_G6</Mask>
+				<Mask Value="0x40">G510_KEY_G7</Mask>
+				<Mask Value="0x80">G510_KEY_G8</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G510_KEY_G9</Mask>
+				<Mask Value="0x02">G510_KEY_G10</Mask>
+				<Mask Value="0x04">G510_KEY_G11</Mask>
+				<Mask Value="0x08">G510_KEY_G12</Mask>
+				<Mask Value="0x10">G510_KEY_G13</Mask>
+				<Mask Value="0x20">G510_KEY_G14</Mask>
+				<Mask Value="0x40">G510_KEY_G15</Mask>
+				<Mask Value="0x80">G510_KEY_G16</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G510_KEY_G17</Mask>
+				<Mask Value="0x02">G510_KEY_G18</Mask>
+				<Mask Value="0x04">G510_SWITCH_GAMING</Mask>
+				<Mask Value="0x08">G510_KEY_LIGHT</Mask>
+				<Mask Value="0x10">G510_KEY_M1</Mask>
+				<Mask Value="0x20">G510_KEY_M2</Mask>
+				<Mask Value="0x40">G510_KEY_M3</Mask>
+				<Mask Value="0x80">G510_KEY_MR</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G510_KEY_L1</Mask>
+				<Mask Value="0x02">G510_KEY_L2</Mask>
+				<Mask Value="0x04">G510_KEY_L3</Mask>
+				<Mask Value="0x08">G510_KEY_L4</Mask>
+				<Mask Value="0x10">G510_KEY_L5</Mask>
+				<Mask Value="0x20">G510_KEY_HEADPHONE</Mask>
+				<Mask Value="0x40">G510_KEY_MICROPHONE</Mask>
+			</Byte>
+		</Input>
+		<ShiftStates>
+			<State Name="M1" Type="Button" ButtonName="G510_KEY_M1"/>
+			<State Name="M2" Type="Button" ButtonName="G510_KEY_M2"/>
+			<State Name="M3" Type="Button" ButtonName="G510_KEY_M3"/>
+		</ShiftStates>
+		<AltNames>
+			<AltName Name="G510_KEY_G1">G1</AltName>
+			<AltName Name="G510_KEY_G2">G2</AltName>
+			<AltName Name="G510_KEY_G3">G3</AltName>
+			<AltName Name="G510_KEY_G4">G4</AltName>
+			<AltName Name="G510_KEY_G5">G5</AltName>
+			<AltName Name="G510_KEY_G6">G6</AltName>
+			<AltName Name="G510_KEY_G7">G7</AltName>
+			<AltName Name="G510_KEY_G8">G8</AltName>
+			<AltName Name="G510_KEY_G9">G9</AltName>
+			<AltName Name="G510_KEY_G10">G10</AltName>
+			<AltName Name="G510_KEY_G11">G11</AltName>
+			<AltName Name="G510_KEY_G12">G12</AltName>
+			<AltName Name="G510_KEY_G13">G13</AltName>
+			<AltName Name="G510_KEY_G14">G14</AltName>
+			<AltName Name="G510_KEY_G15">G15</AltName>
+			<AltName Name="G510_KEY_G16">G16</AltName>
+			<AltName Name="G510_KEY_G17">G17</AltName>
+			<AltName Name="G510_KEY_G18">G18</AltName>
+			<AltName Name="G510_KEY_M1">M1</AltName>
+			<AltName Name="G510_KEY_M2">M2</AltName>
+			<AltName Name="G510_KEY_M3">M3</AltName>
+			<AltName Name="G510_KEY_MR">MR</AltName>
+		</AltNames>
+	</Gamepad>
+	<Gamepad Name="G15v1">
+		<Config>
+			<VID>0x046D</VID>
+			<PID>0xC222</PID>
+			<Usage>0x0000</Usage>
+			<UsagePage>0xFF00</UsagePage>
+		</Config>
+		<Input>
+			<Byte Unused="False" Type="UseMask" Value="0x02" />
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G15_KEY_G1</Mask>
+				<Mask Value="0x04">G15_KEY_G13</Mask>
+				<Mask Value="0x80">G15_KEY_LIGHT</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x02">G15_KEY_G2</Mask>
+				<Mask Value="0x01">G15_KEY_G7</Mask>
+				<Mask Value="0x08">G15_KEY_G14</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x04">G15_KEY_G3</Mask>
+				<Mask Value="0x02">G15_KEY_G8</Mask>
+				<Mask Value="0x10">G15_KEY_G15</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x08">G15_KEY_G4</Mask>
+				<Mask Value="0x04">G15_KEY_G9</Mask>
+				<Mask Value="0x20">G15_KEY_G16</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x10">G15_KEY_G5</Mask>
+				<Mask Value="0x08">G15_KEY_G10</Mask>
+				<Mask Value="0x40">G15_KEY_G17</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x20">G15_KEY_G6</Mask>
+				<Mask Value="0x10">G15_KEY_G11</Mask>
+				<Mask Value="0x01">G15_KEY_M1</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x20">G15_KEY_G12</Mask>
+				<Mask Value="0x02">G15_KEY_M2</Mask>
+				<Mask Value="0x40">G15_KEY_MR</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x40">G15_KEY_G18</Mask>
+				<Mask Value="0x04">G15_KEY_M3</Mask>
+			</Byte>
+		</Input>
+		<ShiftStates>
+			<State Name="M1" Type="Button" ButtonName="G15_KEY_M1"/>
+			<State Name="M2" Type="Button" ButtonName="G15_KEY_M2"/>
+			<State Name="M3" Type="Button" ButtonName="G15_KEY_M3"/>
+		</ShiftStates>
+		<AltNames>
+			<AltName Name="G15_KEY_G1">G1</AltName>
+			<AltName Name="G15_KEY_G2">G2</AltName>
+			<AltName Name="G15_KEY_G3">G3</AltName>
+			<AltName Name="G15_KEY_G4">G4</AltName>
+			<AltName Name="G15_KEY_G5">G5</AltName>
+			<AltName Name="G15_KEY_G6">G6</AltName>
+			<AltName Name="G15_KEY_G7">G7</AltName>
+			<AltName Name="G15_KEY_G8">G8</AltName>
+			<AltName Name="G15_KEY_G9">G9</AltName>
+			<AltName Name="G15_KEY_G10">G10</AltName>
+			<AltName Name="G15_KEY_G11">G11</AltName>
+			<AltName Name="G15_KEY_G12">G12</AltName>
+			<AltName Name="G15_KEY_G13">G13</AltName>
+			<AltName Name="G15_KEY_G14">G14</AltName>
+			<AltName Name="G15_KEY_G15">G15</AltName>
+			<AltName Name="G15_KEY_G16">G16</AltName>
+			<AltName Name="G15_KEY_G17">G17</AltName>
+			<AltName Name="G15_KEY_G18">G18</AltName>
+		</AltNames>
+	</Gamepad>
+	<Gamepad name="G13">
+		<Config>
+			<VID>0x046D</VID>
+			<PID>0xC21C</PID>
+			<Usage>0x0000</Usage>
+			<UsagePage>0xFF00</UsagePage>
+		</Config>
+		<Input>
+			<Byte Unused="True" Type="UseMask" Value="0x01"/>
+			<Byte Unused="False" Type="Axis">G13_AXIS_X</Byte>
+			<Byte Unused="False" Type="Axis">G13_AXIS_Y</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G13_KEY_G1</Mask>
+				<Mask Value="0x02">G13_KEY_G2</Mask>
+				<Mask Value="0x04">G13_KEY_G3</Mask>
+				<Mask Value="0x08">G13_KEY_G4</Mask>
+				<Mask Value="0x10">G13_KEY_G5</Mask>
+				<Mask Value="0x20">G13_KEY_G6</Mask>
+				<Mask Value="0x40">G13_KEY_G7</Mask>
+				<Mask Value="0x80">G13_KEY_G8</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G13_KEY_G9</Mask>
+				<Mask Value="0x02">G13_KEY_G10</Mask>
+				<Mask Value="0x04">G13_KEY_G11</Mask>
+				<Mask Value="0x08">G13_KEY_G12</Mask>
+				<Mask Value="0x10">G13_KEY_G13</Mask>
+				<Mask Value="0x20">G13_KEY_G14</Mask>
+				<Mask Value="0x40">G13_KEY_G15</Mask>
+				<Mask Value="0x80">G13_KEY_G16</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G13_KEY_G17</Mask>
+				<Mask Value="0x02">G13_KEY_G18</Mask>
+				<Mask Value="0x04">G13_KEY_G19</Mask>
+				<Mask Value="0x08">G13_KEY_G20</Mask>
+				<Mask Value="0x10">G13_KEY_G21</Mask>
+				<Mask Value="0x20">G13_KEY_G22</Mask>
+				<Mask Value="0x80">G13_KEY_BACKLIGHT</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G13_KEY_BLACK</Mask>
+				<Mask Value="0x02">G13_KEY_SCREEN1</Mask>
+				<Mask Value="0x04">G13_KEY_SCREEN2</Mask>
+				<Mask Value="0x08">G13_KEY_SCREEN3</Mask>
+				<Mask Value="0x10">G13_KEY_SCREEN4</Mask>
+				<Mask Value="0x20">G13_KEY_M1</Mask>
+				<Mask Value="0x40">G13_KEY_M2</Mask>
+				<Mask Value="0x80">G13_KEY_M3</Mask>
+			</Byte>
+			<Byte Unused="False" Type="ButtonMask">
+				<Mask Value="0x01">G13_KEY_MR</Mask>
+				<Mask Value="0x02">G13_KEY_LEFT</Mask>
+				<Mask Value="0x04">G13_KEY_BOTTOM</Mask>
+				<Mask Value="0x08">G13_KEY_JOYSTICK</Mask>
+				<Mask Value="0x20">G13_KEY_LIGHT</Mask>
+			</Byte>
+		</Input>
+		<ShiftStates>
+			<State Name="M1" Type="Button" ButtonName="G13_KEY_M1"/>
+			<State Name="M2" Type="Button" ButtonName="G13_KEY_M2"/>
+			<State Name="M3" Type="Button" ButtonName="G13_KEY_M3"/>
+		</ShiftStates>
+		<AltNames>
+			<AltName Name="G13_KEY_G1">G1</AltName>
+			<AltName Name="G13_KEY_G2">G2</AltName>
+			<AltName Name="G13_KEY_G3">G3</AltName>
+			<AltName Name="G13_KEY_G4">G4</AltName>
+			<AltName Name="G13_KEY_G5">G5</AltName>
+			<AltName Name="G13_KEY_G6">G6</AltName>
+			<AltName Name="G13_KEY_G7">G7</AltName>
+			<AltName Name="G13_KEY_G8">G8</AltName>
+			<AltName Name="G13_KEY_G9">G9</AltName>
+			<AltName Name="G13_KEY_G10">G10</AltName>
+			<AltName Name="G13_KEY_G11">G11</AltName>
+			<AltName Name="G13_KEY_G12">G12</AltName>
+			<AltName Name="G13_KEY_G13">G13</AltName>
+			<AltName Name="G13_KEY_G14">G14</AltName>
+			<AltName Name="G13_KEY_G15">G15</AltName>
+			<AltName Name="G13_KEY_G16">G16</AltName>
+			<AltName Name="G13_KEY_G17">G17</AltName>
+			<AltName Name="G13_KEY_G18">G18</AltName>
+			<AltName Name="G13_KEY_G19">G19</AltName>
+			<AltName Name="G13_KEY_G20">G20</AltName>
+			<AltName Name="G13_KEY_G21">G21</AltName>
+			<AltName Name="G13_KEY_G22">G22</AltName>
+			<AltName Name="G13_KEY_M1">M1</AltName>
+			<AltName Name="G13_KEY_M2">M2</AltName>
+			<AltName Name="G13_KEY_M3">M3</AltName>
+			<AltName Name="G13_KEY_MR">MR</AltName>
+			<AltName Name="G13_KEY_BLACK">BLACK</AltName>
+			<AltName Name="G13_KEY_SCREEN1">S1</AltName>
+			<AltName Name="G13_KEY_SCREEN2">S2</AltName>
+			<AltName Name="G13_KEY_SCREEN3">S3</AltName>
+			<AltName Name="G13_KEY_SCREEN4">S4</AltName>
+			<AltName Name="G13_KEY_LIGHT">LIGHT</AltName>
+			<AltName Name="G13_KEY_LEFT">LEFT</AltName>
+			<AltName Name="G13_KEY_BOTTOM">BOTTOM</AltName>
+			<AltName Name="G13_KEY_JOYSTICK">JOYSTICK</AltName>
+		</AltNames>
+	</Gamepad>
+	</Gamepads>

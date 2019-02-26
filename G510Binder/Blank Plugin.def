@@ -1,0 +1,5 @@
+LIBRARY	"G510Binder"
+EXPORTS
+	GetInterfaceVersion
+	GetGUID
+	CreateInstance
